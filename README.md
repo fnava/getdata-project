@@ -6,6 +6,8 @@
 * README.md - this file
 * run_analysis.R - Script which performs the 5 steps requested below
 * CodeBook.md - Description of data transformations and variables
+* X_tmp.csv - First tidy dataset from steps 1 to 4
+* X_final.csv - Secod tidy dataset with averaged variables as requested in step 5
 
 ### Project original description
 
