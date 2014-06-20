@@ -24,9 +24,10 @@ Type: Numeric
 
 Identifier of the subject performing the measure regardless of the activity. Can be a number between 1 and 30
 
-In the final tidy dataset all variables are averaged for each subject and activity, so there is a variable vector for each available combination of those, i.e.: 6 activities x 30 subjects -> 180 vectors
+**_In the final tidy dataset all variables are averaged for each subject and activity, so there is a variable vector for each available combination of those, i.e.: 6 activities x 30 subjects -> 180 vectors_**
 
 ### Measurements:
+
 
 **Accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ are time domain signals (prefix 't' to denote time) captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz**
 
