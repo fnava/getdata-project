@@ -1,4 +1,4 @@
-## 
+# Code Book
 
 ## Features list:
 
@@ -17,6 +17,7 @@ Can be any of the following
 4. "Sitting"
 5. "Standing"
 6. "Laying"
+
 
 * Subject
 
