@@ -21,7 +21,7 @@ Can be any of the following
 
 * Subject
 
-Type: Numeric
+Type: Numeric index
 
 Identifier of the subject performing the measure regardless of the activity. Can be a number between 1 and 30
 
