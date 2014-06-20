@@ -2,18 +2,18 @@
 
 ## Features list:
 
-Features names have been preserved from the original dataset as they are enough descriptive of the source and how have been processed originally in order to be included in the dataset.
+All features names have been preserved from the original dataset as they are enough descriptive of the source and how have been processed originally in order to be included in the dataset.
 
 * Activity
 
-Character string
+Type: Character string
 
 Description of the activity performed while measuring the variables.
-Can be any of the following "Walking","Walking Upstairs","Walking Downstairs","Sitting","Standing","Laying".
+Can be any of the following **"Walking","Walking Upstairs","Walking Downstairs","Sitting","Standing","Laying"**.
 
 * Subject
 
-Numeric
+Type: Numeric
 
 Identifier of the subject performing the measure regardless of the activity. Can be a number between 1 and 30
 
@@ -86,106 +86,113 @@ time domain standard deviation:
 * tBodyGyroJerk-std()-Y
 * tBodyGyroJerk-std()-Z
 
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag)
+
 body part of linear acceleration from accelerometer, magnitude,
 time domain mean:
-tBodyAccMag-mean()
+* tBodyAccMag-mean()
 body part of linear acceleration from accelerometer, magnitude,
 time domain standard deviation:
-tBodyAccMag-std()
+* tBodyAccMag-std()
 
 gravity part of linear acceleration from accelerometer, magnitude,
 time domain mean:
-tGravityAccMag-mean()
+* tGravityAccMag-mean()
 gravity part of linear acceleration from accelerometer, magnitude,
 time domain standard deviation:
-tGravityAccMag-std()
+* tGravityAccMag-std()
 
-time domain, 
-tBodyAccJerkMag-mean()
-time domain, 
-tBodyAccJerkMag-std()
+body part time derivate of linear acceleration from accelerometer, magnitude, time domain mean:
+* tBodyAccJerkMag-mean()
+body part time derivate of linear acceleration from accelerometer, magnitude, time domain standard deviation:
+* tBodyAccJerkMag-std()
 
-time domain, 
-tBodyGyroMag-mean()
-time domain, 
-tBodyGyroMag-std()
+body part of angular velocity from gyroscope, magnitude,
+time domain mean: 
+* tBodyGyroMag-mean()
+body part of angular velocity from gyroscope, magnitude,
+time domain standard deviation: 
+* tBodyGyroMag-std()
 
-time domain, 
-tBodyGyroJerkMag-mean()
-time domain, 
-tBodyGyroJerkMag-std()
+body part time derivate of angular velocity from gyroscope, magnitude, time domain mean:
+* tBodyGyroJerkMag-mean()
+body part time derivate of angular velocity from gyroscope, magnitude, time domain standard deviation:
+* tBodyGyroJerkMag-std()
 
-frequency domain, 
-fBodyAcc-mean()-X
-fBodyAcc-mean()-Y
-fBodyAcc-mean()-Z
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals (denoted by a begining "f" letter)
 
-frequency domain, 
-fBodyAcc-std()-X
-fBodyAcc-std()-Y
-fBodyAcc-std()-Z
+frequency domain, body part of linear acceleration from accelerometer for each axis, frequency domain mean:
+* fBodyAcc-mean()-X
+* fBodyAcc-mean()-Y
+* fBodyAcc-mean()-Z
 
-frequency domain, 
-fBodyAcc-meanFreq()-X
-fBodyAcc-meanFreq()-Y
-fBodyAcc-meanFreq()-Z
+frequency domain, body part of linear acceleration from accelerometer for each axis, frequency domain, standard deviation:
+* fBodyAcc-std()-X
+* fBodyAcc-std()-Y
+* fBodyAcc-std()-Z
 
-frequency domain, 
-fBodyAccJerk-mean()-X
-fBodyAccJerk-mean()-Y
-fBodyAccJerk-mean()-Z
+frequency domain, body part of linear acceleration from accelerometer for each axis, frequency domain mean: 
+* fBodyAcc-meanFreq()-X
+* fBodyAcc-meanFreq()-Y
+* fBodyAcc-meanFreq()-Z
 
-frequency domain, 
-fBodyAccJerk-std()-X
-fBodyAccJerk-std()-Y
-fBodyAccJerk-std()-Z
+body part time derivate of linear acceleration from accelerometer for each axis, frequency domain mean: 
+* fBodyAccJerk-mean()-X
+* fBodyAccJerk-mean()-Y
+* fBodyAccJerk-mean()-Z
 
-frequency domain, 
-fBodyAccJerk-meanFreq()-X
-fBodyAccJerk-meanFreq()-Y
-fBodyAccJerk-meanFreq()-Z
+body part time derivate of linear acceleration from accelerometer for each axis, frequency domain, standard deviation: 
+* fBodyAccJerk-std()-X
+* fBodyAccJerk-std()-Y
+* fBodyAccJerk-std()-Z
 
-frequency domain, 
-fBodyGyro-mean()-X
-fBodyGyro-mean()-Y
-fBodyGyro-mean()-Z
+body part time derivate of linear acceleration from accelerometer for each axis, frequency domain mean:
+* fBodyAccJerk-meanFreq()-X
+* fBodyAccJerk-meanFreq()-Y
+* fBodyAccJerk-meanFreq()-Z
 
-frequency domain, 
-fBodyGyro-std()-X
-fBodyGyro-std()-Y
-fBodyGyro-std()-Z
+body part of angular velocity from gyroscope for each axis, frequency domain mean:
+* fBodyGyro-mean()-X
+* fBodyGyro-mean()-Y
+* fBodyGyro-mean()-Z
 
-frequency domain, 
-fBodyGyro-meanFreq()-X
-fBodyGyro-meanFreq()-Y
-fBodyGyro-meanFreq()-Z
+body part of angular velocity from gyroscope for each axis, frequency domain mean, frequency domain standard deviation: 
+* fBodyGyro-std()-X
+* fBodyGyro-std()-Y
+* fBodyGyro-std()-Z
 
-frequency domain, 
-fBodyAccMag-mean()
-frequency domain, 
-fBodyAccMag-std()
+body part of angular velocity from gyroscope for each axis, frequency domain mean:
+* fBodyGyro-meanFreq()-X
+* fBodyGyro-meanFreq()-Y
+* fBodyGyro-meanFreq()-Z
 
-frequency domain, 
-fBodyAccMag-meanFreq()
+body part of linear acceleration from accelerometer, magnitude, frequency domain mean: 
+* fBodyAccMag-mean()
+body part of linear acceleration from accelerometer, magnitude, frequency domain mean, frequency domain standard deviation: 
+* fBodyAccMag-std()
+body part of linear acceleration from accelerometer, magnitude, frequency domain mean:
+* fBodyAccMag-meanFreq()
 
-frequency domain, 
-fBodyBodyAccJerkMag-mean()
+body part time derivate of linear acceleration from accelerometer, magnitude, frequency domain mean:
+* fBodyBodyAccJerkMag-mean()
+body part time derivate of linear acceleration from accelerometer, magnitude, frequency domain standard deviation:
+* fBodyBodyAccJerkMag-std()
+body part time derivate of linear acceleration from accelerometer, magnitude, frequency domain mean:
+* fBodyBodyAccJerkMag-meanFreq()
 
-frequency domain, 
-fBodyBodyAccJerkMag-std()
-frequency domain, 
-fBodyBodyAccJerkMag-meanFreq()
+body part of angular velocity from gyroscope, magnitude,
+frequency domain mean:
+* fBodyBodyGyroMag-mean()
+body part of angular velocity from gyroscope, magnitude,
+frequency domain standar deviation:
+* fBodyBodyGyroMag-std()
+body part of angular velocity from gyroscope, magnitude,
+frequency domain mean:
+* fBodyBodyGyroMag-meanFreq()
 
-frequency domain, 
-fBodyBodyGyroMag-mean()
-frequency domain, 
-fBodyBodyGyroMag-std()
-frequency domain, 
-fBodyBodyGyroMag-meanFreq()
-
-frequency domain, 
-fBodyBodyGyroJerkMag-mean()
-frequency domain, 
-fBodyBodyGyroJerkMag-std()
-frequency domain, 
-fBodyBodyGyroJerkMag-meanFreq()
+body part time derivate of angular velocity from gyroscope, magnitude, frequency domain mean:
+* fBodyBodyGyroJerkMag-mean()
+body part time derivate of angular velocity from gyroscope, magnitude, frequency domain standard deviation:
+* fBodyBodyGyroJerkMag-std()
+body part time derivate of angular velocity from gyroscope, magnitude, frequency domain mean:
+* fBodyBodyGyroJerkMag-meanFreq()
