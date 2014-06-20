@@ -40,7 +40,8 @@ row_count = 100
 # First one test and training data joined and variables filtered:
 tidy_dataset_1_file = "./X_tmp.csv"
 # Second one will be uploaded as result, containint averaged values:
-tidy_dataset_2_file = "./X_final.csv"
+tidy_dataset_2_file = "./X_final.txt"
+# must be a .txt file to be able to upload as attachment in project form page
 
 #gen_tidy <- function() {
   if (! file.exists(tidy_dataset_1_file)) {
