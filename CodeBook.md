@@ -4,15 +4,18 @@
 
 Features names have been preserved from the original dataset as they are enough descriptive of the source and how have been processed originally in order to be included in the dataset.
 
-*Activity*
+**Activity**
+
 Character string
+
 Description of the activity performed while measuring the variables.
 Can be any of the following "Walking","Walking Upstairs","Walking Downstairs","Sitting","Standing","Laying".
 
-*Subject*
+**Subject**
+
 Numeric
-Identifier of the subject performing the measure regardless of the activity.
-can be between 1 and 30
+
+Identifier of the subject performing the measure regardless of the activity. Can be a number between 1 and 30
 
 In the final tidy dataset all variables are averaged for each subject and activity, so there is a variable vector for each available combination of those, i.e.: 6 activities x 30 subjects -> 180 vectors
 
