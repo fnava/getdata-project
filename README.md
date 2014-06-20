@@ -3,17 +3,17 @@
 
 ### Submitted files:
 
-* README.md - this file
-* run_analysis.R - Script which performs the 5 steps requested below (see "Project original description")
-* CodeBook.md - Description of data transformations and variables
-* X_tmp.csv - First tidy dataset from steps 1 to 4
-* X_final.txt - Secod tidy dataset with averaged variables as requested in step 5
+* **README.md** - this file
+* **run_analysis.R** - Script which performs the 5 steps requested below (see "Project original description")
+* **CodeBook.md** - Description of data transformations and variables
+* **X_tmp.csv** - First tidy dataset from steps 1 to 4
+* **X_final.txt** - Second tidy dataset with averaged variables as requested in step 5. This file is the one uploaded as attachment to the project results submission page.
 
 R Script must be run having the uncompressed Samsung data in a subdirectory named *"UCI HAR Dataset"*. The tidy datasets are generated in CSV format with quoted characters.
 
 The original feature names have been preserved as they are considered enough descriptive of the origin of each signal:
 
- * **t/f** prefix** to distinguish between time-domain and frecuency domain signals
+ * **t/f** prefix to distinguish between time-domain and frecuency domain signals
  * **Body/Gravity** infix to distinguish the result of filtering and obtain the Body/Gravity part of the signals (see CodeBook.md for details)
  * **Acc/Gyro** infix to denote source of signal being Accelerometer or Gyroscope (see CodeBook.md for details)
  * **Jerk** infix to denote time derivative of base signal
@@ -34,7 +34,13 @@ The activity index has been replaced for a description, with the following conve
 
 ### Project original description
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 
+
+1. a tidy data set as described below, 
+2. a link to a Github repository with your script for performing the analysis, and 
+3. a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
+
+You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
