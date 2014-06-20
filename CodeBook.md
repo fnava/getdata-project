@@ -16,7 +16,7 @@ Can be any of the following
 3. "Walking Downstairs"
 4. "Sitting"
 5. "Standing"
-6. "Laying".
+6. "Laying"
 
 * Subject
 
