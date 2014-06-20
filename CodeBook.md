@@ -4,7 +4,13 @@
 
 **All features names have been preserved from the original dataset as they are enough descriptive of the source and how have been processed originally in order to be included in the dataset.**
 
-* Activity
+* subject
+
+Type: Numeric index
+
+Identifier of the subject performing the measure regardless of the activity. Can be a number between 1 and 30
+
+* activity
 
 Type: Character string
 
@@ -18,12 +24,6 @@ Can be any of the following
 5. "Standing"
 6. "Laying"
 
-
-* Subject
-
-Type: Numeric index
-
-Identifier of the subject performing the measure regardless of the activity. Can be a number between 1 and 30
 
 **_In the final tidy dataset all variables are averaged for each subject and activity, so there is a variable vector for each available combination of those, i.e.: 6 activities x 30 subjects -> 180 vectors_**
 
