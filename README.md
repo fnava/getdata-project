@@ -4,31 +4,33 @@
 ### Submitted files:
 
 * README.md - this file
-* run_analysis.R - Script which performs the 5 steps requested below
+* run_analysis.R - Script which performs the 5 steps requested below (see "Project original description")
 * CodeBook.md - Description of data transformations and variables
 * X_tmp.csv - First tidy dataset from steps 1 to 4
 * X_final.txt - Secod tidy dataset with averaged variables as requested in step 5
 
-R Script must be run having the uncompressed Samsung data in a subdirectory named "UCI HAR Dataset". The tidy datasets are generated in CSV format with quoted characters.
+R Script must be run having the uncompressed Samsung data in a subdirectory named *"UCI HAR Dataset"*. The tidy datasets are generated in CSV format with quoted characters.
 
 The original feature names have been preserved as they are considered enough descriptive of the origin of each signal:
 
- * t/f prefix to distinguish between time-domain and frecuency domain signals
- * Body/Gravity infix to distinguish the result of filtering and obtain the Body/Gravity part of the signals (see CodeBook.md for details)
- * Acc/Gyro infix to denote source of signal being Accelerometer or Gyroscope (see CodeBook.md for details)
- * Jerk infix to denote time derivative of base signal
- * X/Y/Z/Mag infix to denote axis of total magnitude signal
- * mean/std/meanfreq to denote mean, standard deviation or frequency weighted average of signal
+ * **t/f** prefix** to distinguish between time-domain and frecuency domain signals
+ * **Body/Gravity** infix to distinguish the result of filtering and obtain the Body/Gravity part of the signals (see CodeBook.md for details)
+ * **Acc/Gyro** infix to denote source of signal being Accelerometer or Gyroscope (see CodeBook.md for details)
+ * **Jerk** infix to denote time derivative of base signal
+ * **X/Y/Z/Mag** infix to denote axis of total magnitude signal
+ * **mean/std/meanfreq** to denote mean, standard deviation or frequency weighted average of signal
  
 all these variables have been grouped by activity and subject and then averaged with the same weight (mean function).
 
 The activity index has been replaced for a description, with the following convention:
+
 1. "Walking"
 2. "Walking Upstairs"
 3. "Walking Downstairs"
 4. "Sitting"
 5. "Standing"
-6. "Laying".
+6. "Laying"
+
 
 ### Project original description
 
